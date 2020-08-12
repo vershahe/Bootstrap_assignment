@@ -1,0 +1,56 @@
+.card {
+    
+   background-color: rgb(247, 225, 247);
+    width: 200px;
+    left: auto;
+    height: 500px;
+  }
+  .card-title {
+      font-style: oblique;
+
+  }
+
+  .container { 
+     right:auto;
+     align-content: right;
+  }
+
+#carouselExampleControls{
+    padding-top: 50px;
+    padding-right: 100px;
+    right: auto;
+}
+.row.content {height: 450px}
+    
+   
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+   
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+  
+
+  #click{
+    background-color: teal;
+  }
+
+  .btn-primary {
+    background-color: teal;
+  }

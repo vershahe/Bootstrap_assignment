@@ -1,0 +1,97 @@
+<html>
+    <head>
+    <title>Register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+        
+              <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="nav navbar-nav">
+                  <li class="active"><img src="Personal.jpg" alt="personal" width="50" height="60"></li>
+                 
+        
+                </ul>
+        
+            </div>
+            </div>
+          </nav>
+        
+          <div class="container-fluid text-center">
+            <div class="row content">
+              <div class="col-sm-2 sidenav">
+                <div class="card">
+        
+                  <div class="card-body">
+                    <h5 class="card-title">Favorite quote</h5>
+                    <img src="quote.jpg" class="card-img-down" alt="quote" width="170" height="170"><br>
+                    <img src="quote1.jpg" class="card-img-down" alt="quote" width="170" height="170">
+        
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-8 text-left">
+                <form action="Display.html">
+                    <label for="photo">Photo:</label>
+                    <input type="image" src="img_photo.png" alt="image" width="48" height="48"><br><br>
+                    <label for="name">Name:</label>
+                    <input type="textbox" id="name" name="name" value="Versha"><br><br>
+                    <label for="DOB">DOB:</label>
+                    <input type="date" id="DOB" name="DOB" value="2019-12-12" ><br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male" checked="checked">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                   <label for="female">Female</label><br><br>
+                    <label for="Address">Address:</label>
+                    <textarea id="Address" name="Address" rows="4" cols="50">9800 fredericksburg rd</textarea><br><br>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd" value="sunday"><br><br>
+                    <label for="Confirmpwd">Confirm Password:</label>
+                    <input type="password" id="Confirmpwd" name="Confirmpwd" value="sunday"><br><br>
+                    <label >Interested Tech stack</label>
+                    <input type="checkbox" id="Java" name="Java" value="Java" checked>
+                    <label for="Java"> JAVA</label> 
+                     <input type="checkbox" id="SQL" name="SQL" value="SQL">
+                    <label for="SQL"> SQL</label>
+                    <input type="checkbox" id="React" name="React" value="React">
+                    <label for="React"> React</label><br><br>
+                    <label for ="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Japan">Japan</option>
+                        </select><br><br>
+                    <input type="submit" value="Submit">
+                  </form> 
+        
+              </div>
+              <div class="col-sm-2 sidenav">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#click">Click me</button>
+                <div id="click" class="collapse">
+                  Information regarding Registration
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+          <footer class="container-fluid text-center">
+            <p>Footer</p>
+          </footer>
+
+
+       
+    </body>
+</html>
